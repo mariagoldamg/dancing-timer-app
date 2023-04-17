@@ -1,0 +1,47 @@
+#header{
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    h1 {
+        font-size: 40px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #425F57;
+    }
+    
+    #btn-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #btn {
+        margin-top: 100px;
+        background: rgb(236, 125, 15);
+        padding: 25px;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    #btn:hover {
+        background: linear-gradient(to right, #e6c213, #da4f0f);
+    }
+    
+    a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #425F57;
+    font-weight: bold;
+    }
+    
+    #myVideo {
+    position: fixed;
+    top:0;
+    right:0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    }
+    
+    
